@@ -1,11 +1,11 @@
 {
-  "name": "problem-one",
+  "name": "leetcode-interview",
   "version": "0.0.0",
   "description": "",
   "keywords": [],
-  "main": "dist/problem-one.umd.js",
-  "module": "dist/problem-one.es5.js",
-  "typings": "dist/types/problem-one.d.ts",
+  "main": "dist/leetcode-interview.umd.js",
+  "module": "dist/leetcode-interview.es5.js",
+  "typings": "dist/types/leetcode-interview.d.ts",
   "files": [
     "dist"
   ],

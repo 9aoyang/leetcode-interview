@@ -15,7 +15,7 @@ const lineReg = /((?:http|file):(?:\/{2,3})[^\/]+\/[^:]+):(\d+):(\d+)/
 function transformLine(lineInfo: string): ErrorStack | void {
   const res = lineInfo.match(lineReg)
   if (res) {
-    const [, filename, line, column] = lineInfo.match(lineReg)
+    const [, filename, line, column] = res
     return {
       filename,
       line: +line,
