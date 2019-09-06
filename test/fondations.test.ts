@@ -1,4 +1,4 @@
-import { ErrorMessage, ErrorStack, parseError } from '../src'
+import { ErrorMessage, ErrorStack, parseError } from '../src/foundations'
 
 const httpExample: Array<ErrorStack> = [
   {
